@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<schema>
+	<!-- XSchema deffinition for token-->
+	<element name="Dialogue">
+	  <complexType>
+	    <attribute name="kind"  use="optional">
+		  <simpleType>
+		    <restriction base="string">
+			  <enumeration value="locuteur"/>
+			  <enumeration value="interlocuteur"/>
+			  <enumeration value="phrase énoncée"/>
+			  			  			  			  			  			  			  
+		    </restriction>
+		  </simpleType>	 
+	    </attribute>
+		
+		
+	    <attribute name="type"  use="optional">
+		  <simpleType>
+		    <restriction base="string">
+			  <enumeration value="direct"/>
+			  <enumeration value="indirecte"/>
+			  
+			  			  			  			  			  			  			  
+		    </restriction>
+		</simpleType>	 
+	</attribute>
+  </complexType>
+</element>
+</schema>

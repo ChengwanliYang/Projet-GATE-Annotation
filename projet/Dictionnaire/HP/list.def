@@ -1,0 +1,8 @@
+Personnage_man.lst:Personnage:Masculin
+Personnage_woman.lst:Personnage:Feminin
+Lieu_maison.lst:Lieu:maison
+Lieu_monde.lst:Lieu:monde
+Lieu_public.lst:Lieu:public
+Reference_temporelle.lst:temps:Reference_temporelle
+Reference_temporelle_date.lst:temps:date
+Stopword.lst:Stopword:English

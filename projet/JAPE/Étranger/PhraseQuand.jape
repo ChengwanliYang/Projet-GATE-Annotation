@@ -1,0 +1,10 @@
+Phase:	Phrases
+Input: Token Sentence
+Options: control = appelt
+
+Rule:PhraseQuandRule
+(
+ {Sentence contains {Token.string==~"[Qq]uand"}} 
+):phrase
+-->
+:phrase.PhraseQuand = {rule = "PhraseQuandRule"}

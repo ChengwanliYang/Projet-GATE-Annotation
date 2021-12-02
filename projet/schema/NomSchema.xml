@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<schema>
+	<!-- XSchema deffinition for token-->
+	<element name="Nom">
+	  <complexType>
+	    <attribute name="genre"  use="required">
+		  <simpleType>
+		    <restriction base="string">
+			  
+			  
+			  			  			  			  			  			  			  
+		    </restriction>
+		  </simpleType>	 
+	    </attribute>
+		
+  </complexType>
+</element>
+</schema>

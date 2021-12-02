@@ -1,0 +1,12 @@
+Phase:	Phrases
+Input: Token 
+Options: control = appelt
+
+Rule:TokenverbeoRule
+(
+ {Token.string==~"[Ww]hen"}
+ {Token.kind == word}
+ ({Token.category == VBP} | {Token.category == VBZ}):f
+)
+-->
+:f.WhenVerbe = {rule = "TokenverbeRule"}

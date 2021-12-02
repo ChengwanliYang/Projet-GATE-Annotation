@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<schema>
+	<!-- XSchema deffinition for token-->
+	<element name="Titre">
+	  <complexType>
+	    <attribute name="kind"  use="optional">
+		  <simpleType>
+		    <restriction base="string">
+			  <enumeration value="titre"/>
+			  <enumeration value="auteur"/>
+			  <enumeration value="éditeur"/>
+			  <enumeration value="type"/>
+			  <enumeration value="année d'édition"/>
+			  <enumeration value="chapitre"/>			  			  			  			  			  			  
+		    </restriction>
+		</simpleType>	 
+	</attribute>
+  </complexType>
+</element>
+</schema>
